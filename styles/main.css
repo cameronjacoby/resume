@@ -56,6 +56,7 @@ span.year {
 .container {
   height: 1100px;
   margin: 0 auto;
+  padding: 0 40px;
   width: 850px;
 }
 .header {
@@ -66,10 +67,13 @@ ul.nav-list {
   margin: 0;
   padding: 0;
 }
+ul.nav-list:not(:first-child) {
+  margin-top: 5px;
+}
 ul.nav-list li {
   display: inline-block;
   list-style-type: none;
-  margin-right: 58px;
+  margin-right: 45px;
   vertical-align: top;
 }
 ul.nav-list li:last-child {
