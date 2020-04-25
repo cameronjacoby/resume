@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Source+Sans+Pro:400,400i,700,700i');
+
+body {
+  background-color: #f5eeef;
+  color: #2e283f;
+  font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-family: 'Limelight', cursive;
+}
+a {
+  color: #2e283f;
+}
+a:hover {
+  color: #4dc59d;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 16px;
+  padding-left: 2px;
+}
+hr {
+  border-top: 1px solid #2e283f;
+}
+
+.resume-container {
+  height: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 850px;
+}
+.header {
+  padding: 40px 0;
+}
+.contact-section {
+  margin: 0.6rem 0 0 2px;
+}
+.contact-section i {
+  margin-right: 2px;
+}
+.col-50 {
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: top;
+  width: calc(50% - 2px);
+}
+.skills-line, .education-line, .experience-line, .projects-line {
+  margin: 0 0 1.4rem 6px;
+}
+.skills-line {
+  width: calc(100% - 68px);
+}
+.education-line {
+  width: calc(100% - 110px);
+}
+.experience-line {
+  width: calc(100% - 115px);
+}
+.projects-line {
+  width: calc(100% - 98px);
+}
+
+/* helper classes */
+.no-margin {
+  margin: 0;
+}
+.sm-margin {
+  margin: 0 0 4px 0;
+}
