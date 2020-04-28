@@ -1,77 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cameron Jacoby | Resume</title>
+  <title>Cameron Jacoby - Resume</title>
 
-  <!-- meta tags -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- stylesheets -->
-  <link rel="stylesheet" href="../styles/normalize.css" type="text/css" media="all">
-  <link rel="stylesheet" href="../styles/main.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://kit.fontawesome.com/820525d323.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="container">
+  <div class="resume-container px-3">
     <div class="header">
-      <h1>Cameron Jacoby</h1>
-      <ul class="nav-list">
-        <li>cameronjacoby.com</li>
-        <li>github.com/cameronjacoby</li>
-        <li>linkedin.com/in/cameronjacoby</li>
-        <li>cameron.jacoby@gmail.com</li>
-      </ul>
-    </div>
-    <div class="content">
-      <div class="col-50">
-        <!-- skills -->
-        <p class="section-header">Skills</p>
-        <p class="normal no-margin">Languages</p>
-        <p>HTML, CSS, JavaScript, Ruby</p>
-        <p class="normal no-margin">Frameworks</p>
-        <p>Rails, Node.js, Express.js, AngularJS</p>
-        <p class="normal no-margin">Databases</p>
-        <p>PostgreSQL</p>
-        <p class="normal no-margin">Testing</p>
-        <p>RSpec</p>
-        <p class="normal no-margin">Other</p>
-        <p>Git/GitHub, jQuery, AJAX</p>
-
-        <!-- education -->
-        <p class="section-header">Education</p>
-        <p class="normal no-margin">General Assembly</p>
-        <p>Web Development Immersive,&nbsp;&nbsp;<em>2014</em></p>
-        <p class="normal no-margin">Washington University in St. Louis</p>
-        <p>BA Economics,&nbsp;&nbsp;<em>2011</em></p>
-        <p class="normal no-margin">University College London</p>
-        <p>Study Abroad,&nbsp;&nbsp;<em>2010-2011</em></p>
+      <h1 class="text-uppercase">Cameron Jacoby</h1>
+      <div class="contact-section">
+        <span class="mr-4">
+          <i class="fas fa-envelope-square"></i> cameron.jacoby@gmail.com
+        </span>
+        <span class="mr-4">
+          <i class="fab fa-linkedin"></i> linkedin.com/in/cameronjacoby
+        </span>
+        <span>
+          <i class="far fa-grin-beam"></i> cameronjacoby.com
+        </span>
       </div>
+    </div>
+    <div class="resume-content">
+      <div class="col-45">
+        <div class="resume-section mb-4">
+          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Skills</h5>
+          <hr class="skills-line align-middle d-inline-block">
+          <div class="section-content">
+            <p>
+              <span class="font-weight-bold">Languages &amp; Frameworks:</span> Ruby on Rails, Go, SQL, HTML, CSS, JavaScript
+            </p>
+            <p>
+              <span class="font-weight-bold">Architecture:</span> API Development, Microservices, Distributed Systems
+            </p>
+            <p>
+              <span class="font-weight-bold">Other:</span> Product &amp; Project Management, <br>Public Speaking
+            </p>
+          </div>
+        </div>
+        <div class="resume-section mb-4">
+          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Speaking</h5>
+          <hr class="speaking-line align-middle d-inline-block">
+          <div class="section-content">
+            <p class="font-weight-bold m-0">Work-Life Balance at QCon SF</p>
+            <p class="m-0">San Francisco, CA - 2018</p>
+            <p class="small mt-1">
+              <span>
+                <i class="fas fa-caret-right"></i> infoq.com/presentations/work-life-balance
+              </span>
+            </p>
+            <p class="font-weight-bold m-0">Web Speech API at RailsConf</p>
+            <p class="m-0">Phoenix, AZ - 2017</p>
+            <p class="small mt-1">
+              <span>
+                <i class="fas fa-caret-right"></i> confreaks.tv/videos/railsconf2017-implementing-the-web-speech-api-for-voice-data-entry
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="resume-section mb-4">
+          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Education</h5>
+          <hr class="education-line align-middle d-inline-block">
+          <div class="section-content">
+            <p class="font-weight-bold m-0">Washington University in St. Louis</p>
+            <p>Bachelor of Arts, Economics - 2008-2011</p>
+            <p class="font-weight-bold m-0">University College London</p>
+            <p>Study Abroad, Economics - 2010-2011</p>
+            <p class="font-weight-bold m-0">General Assembly, San Francisco</p>
+            <p>Web Development Immersive - 2014</p>
+            <p class="font-weight-bold m-0">UC Berkeley Extension</p>
+            <p>Psychology - 2019-2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-55">
+        <div class="resume-section mb-4">
+          <h5 class="align-middle d-inline-block mb-4 text-uppercase">Experience</h5>
+          <hr class="experience-line align-middle d-inline-block">
+          <div class="section-content">
+            <p class="font-weight-bold m-0">Lead Software Engineer&#42; at Stitch Fix</p>
+            <p class="m-0">San Francisco, CA | London, UK - 2016-2020</p>
+            <p class="small font-italic m-0 mt-1">&#42;Previous Titles: Senior Software Engineer, Software Engineer</p>
+            <p class="small mt-1">
+              For two years, built expert-use software for the Merchandising team in Ruby on Rails and React, including Stitch Fix's first ever buying recommendation engine. Spent a year and a half working on a special-projects team responsible for launching Stitch Fix UK: created and executed a plan to introduce currency and GDPR compliance to over 100 apps and services; lived in the UK for six months to support engineering systems on the ground at launch. Upon returning to the US, built warehouse automation software in Go.
+            </p>
 
-      <div class="col-50">
-        <!-- experience -->
-        <p class="section-header">Experience</p>
-        <p class="normal no-margin">Software Engineer</p>
-        <p>Stitch Fix,&nbsp;&nbsp;<em>present</em></p>
-        <p class="normal no-margin">Web Development Instructor</p>
-        <p>General Assembly,&nbsp;&nbsp;<em>2015-2016</em></p>
-        <p class="normal no-margin">Software Engineer</p>
-        <p>Rocksbox,&nbsp;&nbsp;<em>2014-2015</em></p>
-        <p class="normal no-margin">Web Development Teaching Assistant</p>
-        <p>General Assembly,&nbsp;&nbsp;<em>2014-2015</em></p>
-        <p class="normal no-margin">Full Stack Developer in Training</p>
-        <p>General Assembly,&nbsp;&nbsp;<em>2014</em></p>
-        <p class="normal no-margin">Merchandise Coordinator</p>
-        <p>Stitch Fix,&nbsp;&nbsp;<em>2014</em></p>
-        <p class="normal no-margin">Social Media Manager</p>
-        <p>CakeStyle,&nbsp;&nbsp;<em>2012-2013</em></p>
+            <p class="font-weight-bold m-0">Web Development Instructor at General Assembly</p>
+            <p class="m-0">San Francisco, CA - 2015-2016</p>
+            <p class="small mt-1">
+              Taught two 12-week cohorts of General Assembly's full-stack Web Development Immersive course. Brought experience as a former student and teaching assistant to deliver engaging, effective lessons for students with no prior coding experience.
+            </p>
 
-        <!-- projects -->
-        <p class="section-header">Projects</p>
-        <p class="sm-margin"><span class="normal">GlobeTweet</span>&nbsp;&nbsp;//&nbsp;&nbsp;live tweet map</p>
-        <ul>
-          <li>&mdash;&nbsp;&nbsp;github.com/cameronjacoby/globetweet</li>
-          <li>&mdash;&nbsp;&nbsp;globetweet.herokuapp.com</li>
-        </ul>
+            <p class="font-weight-bold m-0">Software Engineer at Rocksbox</p>
+            <p class="m-0">San Francisco, CA - 2014-2015</p>
+            <p class="small mt-1">
+              First non-founding engineering hire. Responsible for full-stack development of the customer-facing web app in Ruby on Rails. Wrote maintainable, flexible code that enabled quick iteration on new design and functionality. Introduced automated browser testing to reduce regressions in the highest value features.
+            </p>
+
+            <p class="font-weight-bold m-0">Web Development Teaching Assistant at General Assembly</p>
+            <p>San Francisco, CA - 2014-2015</p>
+
+            <p class="font-weight-bold m-0">Web Development Student at General Assembly</p>
+            <p>San Francisco, CA - 2014</p>
+
+            <p class="font-weight-bold m-0">Merchandise Coordinator at Stitch Fix</p>
+            <p>San Francisco, CA - 2014</p>
+
+            <p class="font-weight-bold m-0">Social Media Manager at CakeStyle</p>
+            <p>San Francisco, CA - 2012-2013</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
