@@ -68,8 +68,11 @@ hr {
 .resume-section p {
   margin-bottom: 1.2rem;
 }
-.section-content {
+.section-content, .cover-letter-content {
   padding-right: 3px;
+}
+.cover-letter-line {
+  margin: 3px 0 2.5rem 0;
 }
 
 .small {
